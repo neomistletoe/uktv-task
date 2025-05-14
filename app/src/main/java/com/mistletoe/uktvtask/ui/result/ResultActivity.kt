@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.mistletoe.uktvtask.R
@@ -54,6 +55,8 @@ class ResultActivity : AppCompatActivity() {
 
         infoListAdapter = InfoListAdapter(resultList)
         binding.recyclerResults.adapter = infoListAdapter
+        val dividerItemDecoration = DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
+        binding.recyclerResults.addItemDecoration(dividerItemDecoration)
         binding.textTitle.text = getString(R.string.results_found, resultList.size, inputKeyword)
     }
 
