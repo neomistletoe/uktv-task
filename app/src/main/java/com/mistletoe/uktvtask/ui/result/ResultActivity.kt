@@ -2,6 +2,7 @@ package com.mistletoe.uktvtask.ui.result
 
 import android.os.Bundle
 import android.util.Log
+import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import androidx.appcompat.app.AppCompatActivity
@@ -25,6 +26,9 @@ class ResultActivity : AppCompatActivity() {
 
         binding = ActivityResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true);
 
         initRecyclerView()
         handleIntentAndLoadData()
@@ -90,5 +94,16 @@ class ResultActivity : AppCompatActivity() {
         }
 
         infoListAdapter.notifyDataSetChanged()
+    }
+
+    // Back button setting
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            android.R.id.home -> {
+                finish()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }
