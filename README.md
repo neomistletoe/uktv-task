@@ -43,15 +43,17 @@ Users can search by entering a keyword such as `films`, `starships`, or `vehicle
 ---
 
 ## 📁 Directory Structure
-com.mistletoe.uktvtask
-├── data
-│   ├── Film.kt
-│   ├── Transportation.kt
-│   └── StarWarsService.kt
-├── ui
-│   ├── MainActivity.kt
-│   └── ResultActivity.kt
-├── InfoListAdapter.kt
+<pre> <code>
+   com.mistletoe.uktvtask 
+   ├── data 
+   │    ├── Film.kt 
+   │    ├── Transportation.kt 
+   │    └── StarWarsService.kt 
+   ├── ui 
+   │    ├── MainActivity.kt 
+   │    └── ResultActivity.kt
+   ├── InfoListAdapter.kt 
+</code> </pre>
 
 
 ⚠️ GitHub commit history includes contributions from a different account due to an initial setup issue.
