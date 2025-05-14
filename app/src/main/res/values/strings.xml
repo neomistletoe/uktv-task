@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">UKTV Task</string>
+    <string name="search">Search</string>
+    <string name="results_found">%1$d results found for \'%2$s\'</string>
+    <string name="film_title">Title: %1$s</string>
+    <string name="film_episode_id">Episode Id: %1$d</string>
+    <string name="film_director">Director: %1$s</string>
+    <string name="film_producer">Producer: %1$s</string>
+    <string name="film_release_date">Release Date: %1$s</string>
+    <string name="film_opening_crawl">Opening Crawl: %1$s</string>
+    <string name="trans_name">Name: %1$s</string>
+    <string name="trans_model">Model: %1$s</string>
+    <string name="trans_manufacturer">Manufacturer: %1$s</string>
+    <string name="trans_credits">Cost in credits: %1$s</string>
+    <string name="trans_length">Length: %1$s</string>
+    <string name="trans_crew">Crew: %1$s</string>
+    <string name="trans_passengers">Passengers: %1$s</string>
+    <string name="trans_cargo">Cargo Capacity: %1$s</string>
+    <string-array name="sort_options">
+        <item>(A → Z)</item>
+        <item>(Z → A)</item>
+    </string-array>
 </resources>
