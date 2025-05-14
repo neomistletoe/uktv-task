@@ -36,7 +36,7 @@ Users can search by entering a keyword such as `films`, `starships`, or `vehicle
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/neomistletoe/uktv-task-app.git
+   git clone https://github.com/neomistletoe/uktv-task.git
 2. Open the project in Android Studio.
 3. Run the app on a physical device or emulator.
 
