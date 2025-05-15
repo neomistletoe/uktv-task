@@ -9,7 +9,7 @@ Users can search by entering a keyword such as `films`, `starships`, or `vehicle
 
 - **MainActivity**: Accepts user input and validates it.
 - **ResultActivity**: Displays the list of results based on the input keyword. It dynamically renders different view types (`films`, `starships`/`vehicles`) using a `RecyclerView`.
-- **InfoListAdapter**: Determines the appropriate view type and binds data to either a film or transportation layout.
+- **ResultListAdapter**: Determines the appropriate view type and binds data to either a film or transportation layout.
 - **Gson** is used for deserialization of cached JSON responses stored in SharedPreferences.
 
 ---
