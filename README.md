@@ -46,13 +46,18 @@ Users can search by entering a keyword such as `films`, `starships`, or `vehicle
 <pre> <code>
    com.mistletoe.uktvtask 
    ├── data 
-   │    ├── Film.kt 
-   │    ├── Transportation.kt 
-   │    └── StarWarsService.kt 
+   │   ├── model
+   │   │   ├── Film.kt 
+   │   │   └── Transportation.kt 
+   │   └── service
+   │       └── StarWarsService.kt    
    ├── ui 
-   │    ├── MainActivity.kt 
-   │    └── ResultActivity.kt
-   ├── InfoListAdapter.kt 
+   │   ├── main
+   │   │   └── MainActivity.kt 
+   │   ├── result
+   │   │   ├── ResultActivity.kt
+   │   │   └── ResultListAdapter.kt
+   │   └── theme
 </code> </pre>
 
 
